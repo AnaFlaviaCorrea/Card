@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.main{
+
+    display: flex;
+}
+
+p,
+h3 {
+    color: white;
+}
+
+.card {
+    padding: 20px 0;
+    background-color: black;
+    width: px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    justify-content: space-between;
+
+
+}
+.card_1 {
+    padding: 20px 0;
+    background-color: black;
+    width: 300px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    justify-content: space-between;
+
+
+}
+.card_2{
+
+    padding: 20px 0;
+    background-color: black;
+    width: 300px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    justify-content: space-between;
+
+}
+
+/* SOCIAL_INFO */
+.social_info {
+
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile>img {
+    width: 100px;
+    border-radius: 50px;
+    box-shadow: 0 0 30px deeppink;
+}
+.buttons > button{
+
+    background-color: #2e2e2e;
+    display: flex;
+    color: deepskyblue;
+    border: 2px deepskyblue solid;
+    height: 30px;
+    width: 200px;
+    margin: 10px;
+    transition: .7s;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+
+.buttons > button:hover {
+    cursor: pointer;
+    color: yellow;
+    background-color: white;
+    border: 2px deeppink solid
+   
+}
+
+
+.social_icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin: 20px 0;
+}
+.social_icons > i{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50;
+    color: white;
+    transition: 0.5s;
+
+}
+.social_icons > i:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.fa-facebook{
+    background-color: #4267B2;
+}
+.fa-twitter{
+
+    background-color: rgb(29, 1, 242);
+}
+.fa-linkedin{
+    background-color: #0077b5;
+}
+.fa-github{
+    background-color: #171515;
+}
